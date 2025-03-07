@@ -1,0 +1,123 @@
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f8d7c4;
+    padding: 20px;
+  }
+  
+  .center-form {
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+  }
+  
+  .search-input {
+    padding: 10px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+    width: 250px;
+  }
+  
+  .search-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background 0.3s ease;
+  }
+  
+  .search-button:hover {
+    background-color: #e65a50;
+  }
+  
+  .menu-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    max-width: 1000px;
+    width: 100%;
+    justify-content: center;
+  }
+  
+  .menu-card {
+    background-color: rgba(255, 255, 255, 0.8);
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 250px;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 15px;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  .menu-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  }
+  
+  .menu-card img {
+    width: 100%;
+    height: 70%;
+    object-fit: cover;
+    border-radius: 8px;
+  }
+  
+  .menu-card .name {
+    font-weight: bold;
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 10px;
+  }
+  
+  .menu-card .ratings {
+    font-size: 1.2rem;
+    color: #ff6f61;
+  }
+  
+  .star {
+    color: gold;
+    font-size: 1.2rem;
+  }
+  
+  .star-empty {
+    color: lightgray;
+    font-size: 1.2rem;
+  }
+  
+  .menu-details {
+    text-align: center;
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    max-width: 400px;
+  }
+  
+  .menu-details img {
+    width: 100%;
+    border-radius: 10px;
+  }
+  
+  .back-button {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
